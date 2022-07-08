@@ -1,0 +1,49 @@
+.Filtros {
+  display: flex;
+  align-items: center; /*Eje principal (horizontal)*/
+  justify-content: space-evenly;
+  background-color: rgba(90, 22, 67, 0.548);
+  min-height: 100px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.FiltroDesde,
+.FiltroHasta {
+  flex-direction: column;
+  display: flex;
+}
+
+#desde,
+#hasta {
+  width: 200px;
+  height: 20px;
+  border: none;
+  padding: 0 10px;
+  border-radius: 25px;
+}
+
+.Filtros div {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.Filtros div select {
+  width: 200px;
+  height: 20px;
+  border-radius: 25px;
+  border: none;
+  padding: 0 10px;
+  background-color: white;
+}
+
+/**/
+
+.Filtros button {
+  border-radius: 25px;
+  width: 100px;
+  padding: 7px 0;
+  border: 1px solid beige;
+  background-color: white;
+  cursor: pointer;
+}

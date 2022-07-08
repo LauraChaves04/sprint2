@@ -1,0 +1,37 @@
+.Header {
+  width: 100%;
+  margin: 0 auto;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Header .slogan h1 {
+  font-weight: 500;
+  color: burlywood;
+  font-family: Ubuntu, sans-serif;
+  padding-top: 70px;
+}
+
+.Header .slogan p {
+  /*Grosor fuente*/
+  font-weight: 70;
+  font-family: Ubuntu, sans-serif;
+  /*Mayuscula*/
+  text-transform: uppercase;
+  color: teal;
+  margin-bottom: 80px;
+}
+
+.Header .slogan p {
+  padding-top: 20px;
+}
+
+.Tusfiltros {
+  background-color: rgba(236, 232, 233, 0.301);
+  width: 400px;
+  font-weight: 50px;
+  color: black;
+  border-radius: 10px;
+}

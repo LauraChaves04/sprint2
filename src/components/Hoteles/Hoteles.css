@@ -1,0 +1,11 @@
+.Hoteles {
+  border: none;
+  background: rgba(255, 255, 255, 0.226);
+  min-height: 100vh;
+  height: auto;
+  width: 100%;
+  /*Grilla con flex*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

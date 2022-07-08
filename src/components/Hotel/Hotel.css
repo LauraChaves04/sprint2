@@ -1,0 +1,70 @@
+.hotel {
+  border-radius: 10px;
+  margin: 15px 0;
+  background: #bb7d8a;
+  width: 300px;
+  margin-left: 10px;
+  padding: 15px;
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+img {
+  width: 95%;
+  border-radius: 10px;
+  border: 1px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.Price {
+  background: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: black;
+}
+.button-reservar {
+  background-color: blanchedalmond;
+  width: 80px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description p {
+  font-weight: lighter;
+  color: gainsboro;
+  overflow-y: scroll;
+  height: 100px;
+}
+
+.rooms {
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  color: black;
+}
+
+.container_rooms_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
